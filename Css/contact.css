@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 2.3rem;
+    z-index: 100;
+    background-color: #fff;
+}
+
+.right a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.right a:hover,
+.right a.active {
+    color: #257a51;
+    border: none;
+}
+
+.isi {
+    padding-top: 180px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+h1{
+    text-align: center;
+}
+
+.isi .get a{
+    font-size: 26px;
+    text-decoration: none;
+    color: #000;
+    align-items: center;
+}
+
+.send input{
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.send button{
+    box-sizing: border-box;
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 8px 12px;
+    transition: 0.5s;
+}
+
+.bottom {
+    margin: 115px 0 0 ;
+    height: 35vh;
+    background-color: #d7caca;
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.info {
+    max-width: 30%;
+}
+
+.info a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+}
+
+.info a:hover{
+    color: #257a51;
+}
+
+.bottom .sosmed {
+    display: flex;
+    gap: 1rem;
+}
