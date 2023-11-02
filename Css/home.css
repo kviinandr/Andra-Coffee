@@ -48,10 +48,11 @@
 
 .content {
     display: flex;
+    align-items: center;
 }
 
 .pict {
-    margin-right: 15px;
+    
 }
 
 .button {
