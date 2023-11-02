@@ -35,7 +35,6 @@
 
 .isi {
     margin: 75px 35px;
-    width: 50%;
     position: relative;
 }
 
@@ -49,6 +48,7 @@
 
 .content {
     display: flex;
+    align-items: center;
 }
 
 .pict {
